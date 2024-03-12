@@ -1,1 +1,1 @@
-const result = await fetch("https://data.cityofnewyork.us/Environment/Urban-Park-Ranger-Animal-Condition-Response/fuhs-xmg2/about_data")
+const result = await fetch("https://data.cityofnewyork.us/resource/fuhs-xmg2.json")
