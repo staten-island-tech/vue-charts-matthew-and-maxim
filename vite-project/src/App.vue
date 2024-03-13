@@ -7,7 +7,6 @@
 
   </header>
 
-  <RouterView />
 </template>
 
 <style scoped>
