@@ -1,16 +1,3 @@
-<!-- <script setup>
-
-</script>
-
-<template>
-  <header>
-
-  </header>
-
-</template>
-
-<style scoped>
-</style> -->
 <template>
   <Doughnut :data="data" :options="options" />
 </template>
