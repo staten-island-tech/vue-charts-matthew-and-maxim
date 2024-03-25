@@ -1,7 +1,7 @@
 
 <template>
   <Doughnut :data="data" :options="options" />
-  <h1 class="header">Graph</h1>
+  <h1>Graph</h1>
 </template>
 
 <script lang="ts">
@@ -23,8 +23,4 @@ export default {
 </script>
 
 <style scoped>
-.header {
-  font-size: 20px;
-  text-align: center
-}
 </style>
