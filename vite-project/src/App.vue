@@ -11,6 +11,7 @@ import * as chartConfig from './chartConfig.js'
 
 ChartJS.register(ArcElement, Tooltip, Legend)
 
+
 export default {
   name: 'App',
   components: {
