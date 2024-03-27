@@ -20,6 +20,7 @@ export default {
   data() {
     return chartConfig
   }
+  
 }
 
 </script>
@@ -38,7 +39,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 import { Doughnut } from 'vue-chartjs'
 ChartJS.register(ArcElement, Tooltip, Legend)
 export default {
-  name: 'DnutChart',
+  name: 'DonutChart',
   components: { Doughnut },
   data: () => ({
     loaded: false,
