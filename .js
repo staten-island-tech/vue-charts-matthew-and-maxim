@@ -1,1 +1,0 @@
-const data1 = await fetch("https://data.cityofnewyork.us/resource/fuhs-xmg2.json")
