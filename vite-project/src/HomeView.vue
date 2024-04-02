@@ -26,7 +26,7 @@ async function reloadChart(borough) {
       labels: Object.keys(apiData),
       datasets: [
         {
-          backgroundColor: ["#41B883", "#E46651", "#00D8FF", "#DD1B16", "#000000"],
+          backgroundColor: ["#42B883", "#E46651", "#00D8FF", "#DD1B16", "#00000"],
           data: Object.values(apiData),
         },
       ],
