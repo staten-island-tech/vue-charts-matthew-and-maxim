@@ -14,7 +14,7 @@
 <script lang="ts">
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 import { Bar } from 'vue-chartjs'
-import callApi from './api2';
+import callApi from 'api2';
 
 
 async function reloadChart(borough) {
