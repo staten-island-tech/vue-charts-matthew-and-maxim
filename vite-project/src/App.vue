@@ -26,7 +26,7 @@
         labels: Object.keys(apiData),
         datasets: [
           {
-            backgroundColor: ["#41B883", "#E46651", "#00D8FF", "#DD1B16", "#000000"],
+            backgroundColor: ["#41B883", "#E46651", "#00D8FF", "#DD1B16", "#000000","FFFFFF"],
             data: Object.values(apiData),
           },
         ],
