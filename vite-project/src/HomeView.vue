@@ -12,7 +12,15 @@
 </template>
 
 <script lang="ts">
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
+import {
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale
+ } from 'chart.js'
 import { Bar } from 'vue-chartjs'
 import callApi from './api2';
 
@@ -37,7 +45,8 @@ async function reloadChart(borough) {
     console.error(e)
   }
 }
-ChartJS.register(ArcElement, Tooltip, Legend)
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 export default {
   name: 'App',
