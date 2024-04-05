@@ -6,7 +6,7 @@
   <button @click="reloadChart('Queens')">Queens</button>
   <button @click="reloadChart('')">All</button>
   <div>
-    <Doughnut :data="chartData" :options="chartOptions" v-if="loaded" />
+    <Bar :data="chartData" :options="chartOptions" v-if="loaded" />
   </div>
 
 </template>
