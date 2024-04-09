@@ -12,6 +12,7 @@
   </template>
   
   <script lang="ts">
+  
  import {
   Chart as ChartJS,
   Title,
