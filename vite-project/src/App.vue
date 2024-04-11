@@ -8,10 +8,11 @@
     <div>
       <Doughnut :data="chartData" :options="chartOptions" v-if="loaded" />
     </div>
-  
+  <RouterView />
   </template>
   
   <script lang="ts">
+  import { RouterLink, RouterView } from 'vue-router';
   import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
   import { Doughnut } from 'vue-chartjs'
   import callApi from './api';
