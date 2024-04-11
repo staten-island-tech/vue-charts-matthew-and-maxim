@@ -9,7 +9,10 @@
       <Doughnut :data="chartData" :options="chartOptions" v-if="loaded" />
     </div>
   <RouterView />
-  </template>
+  <RouterLink>
+    
+  </RouterLink>
+    </template>
   
   <script lang="ts">
   import { RouterLink, RouterView } from 'vue-router';
