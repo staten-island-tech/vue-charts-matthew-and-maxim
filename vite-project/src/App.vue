@@ -9,9 +9,6 @@
       <Doughnut :data="chartData" :options="chartOptions" v-if="loaded" />
     </div>
   <RouterView />
-  <RouterLink>
-    
-  </RouterLink>
     </template>
   
   <script lang="ts">
