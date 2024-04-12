@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <button @click="reloadChart('Brooklyn')">Brooklyn</button>
     <button @click="reloadChart('Manhattan')">Manhattan</button>
     <button @click="reloadChart('Staten Island')">Staten Island</button>
@@ -90,4 +90,4 @@
   
   </script>
   
-  <style scoped></style>
+  <style scoped></style> -->
